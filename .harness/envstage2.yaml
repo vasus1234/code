@@ -1,0 +1,18 @@
+environment:
+  name: env-stage-2
+  identifier: envstage2
+  orgIdentifier: default
+  projectIdentifier: deploymentharnessmultiregion
+  description: ""
+  tags: {}
+  type: PreProduction
+  yaml: |
+    environment:
+      name: env-stage-2
+      identifier: envstage2
+      accountId: h2gXMg4GT0yCFwEXvsZkAQ
+      orgIdentifier: default
+      projectIdentifier: deploymentharnessmultiregion
+      type: PreProduction
+      description: ""
+      tags: {}
