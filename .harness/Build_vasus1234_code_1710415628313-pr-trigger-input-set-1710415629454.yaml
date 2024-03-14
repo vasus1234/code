@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_vasus1234_code_1710415628313-pr-trigger-input-set
+  identifier: Build_vasus1234_code_1710415628313prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: deploymentharnessmultiregion
+  pipeline:
+    identifier: Build_vasus1234_code_1710415628313
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
