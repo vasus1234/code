@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_vasus1234_code_1710415628313-push-trigger-input-set
+  identifier: Build_vasus1234_code_1710415628313pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: deploymentharnessmultiregion
+  pipeline:
+    identifier: Build_vasus1234_code_1710415628313
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
