@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_vasus1234_code_1710420376603-pr-trigger-input-set
+  identifier: Build_vasus1234_code_1710420376603prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: githubcheck
+  pipeline:
+    identifier: Build_vasus1234_code_1710420376603
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
